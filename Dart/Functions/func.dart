@@ -1,10 +1,11 @@
 void main() {
-  int rectarea = findarea(4, 5);
-  print("the area of rectangle is: $rectarea");
+  // double rectarea = findarea(4.1, 5.2);
+  //print("the area of rectangle is: $rectarea");
+  findarea(2.1, 2.3);
 }
 
-int findarea(int length, int breadth) {
-  int area = length * breadth;
+double findarea(length, breadth) {
+  double area = length * breadth;
 
   return area;
 }
