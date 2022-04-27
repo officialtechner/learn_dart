@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  print("Enter a number");
-  int? num = int.parse(stdin.readLineSync()!);
-  //var num = 5;
+  //print("Enter a number");
+  //int? num = int.parse(stdin.readLineSync()!);
+  var num = 5;
 
   if (0 < num && 10 >= num) {
     print("Range 0 to 10");
