@@ -17,7 +17,7 @@ void main() {
       print("Hello.");
 
       break;
-    case "Thersdya":
+    case "Thursdya":
       print("Hey.");
 
       break;
