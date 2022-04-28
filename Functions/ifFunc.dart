@@ -1,15 +1,19 @@
 import 'dart:io';
 
 void main() {
-  print("Enter your age");
-  int? age = int.parse(stdin.readLineSync()!);
-  myFunc(age);
+  print("Enter your marks");
+  int? marks = int.parse(stdin.readLineSync()!);
+  myFunc(marks);
 }
 
-var myFunc = (age) {
-  if (age < 18) {
-    print("You are not eligible for voting");
+var myFunc = (marks) {
+  if (marks >= 0 && marks <= 33) {
+    print("Your marks $marks are very bad. You are Failed!");
+  } else if (marks >= 34 && marks <= 60) {
+    print("Your marks $marks are good. You are pass.");
+  } else if (marks >= 61 && marks <= 100) {
+    print("Your marks $marks are very good. Excellent!");
   } else {
-    print("you are eligible for voting");
+    print("You entered wrong marks.");
   }
 };
