@@ -25,5 +25,6 @@ void main() {
     ];
   }
 
-  print(myFunctionn());
+  var result = myFunctionn();
+  print(result);
 }
