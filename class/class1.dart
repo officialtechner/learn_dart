@@ -3,7 +3,7 @@ class Student {
   var Std_rollno;
   var Std_age;
 
-  Stdinfo() {
+  void Stdinfo() {
     print("Student name is:${Std_name}");
     print("Student roll no is  is:${Std_rollno}");
     print("Student age is:${Std_age}");
