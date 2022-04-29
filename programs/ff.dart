@@ -17,7 +17,12 @@ void main() {
         sumOdd += i;
       }
     }
-    return [even, odd, sumEven, sumOdd];
+    return [
+      "even_count:$even",
+      "odd_count:$odd",
+      "even_sum:$sumEven",
+      "odd_count:$sumOdd"
+    ];
   }
 
   print(myFunctionn());
