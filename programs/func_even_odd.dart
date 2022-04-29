@@ -7,13 +7,21 @@ void main() {
     var odd = 0;
 
     for (int i in evenList) {
-      even++;
-      evenSum += i;
+      if (i % 2 == 0) {
+        even++;
+        evenSum += i;
+      } else {
+        return "list have odd value also";
+      }
     }
 
     for (int i in oddList) {
-      odd++;
-      oddSum += i;
+      if (i % 2 != 0) {
+        odd++;
+        oddSum += i;
+      } else {
+        return "list have even value also";
+      }
     }
 
     return [
