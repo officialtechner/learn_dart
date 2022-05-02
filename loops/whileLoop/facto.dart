@@ -1,3 +1,5 @@
+// factorial program while taking user input.
+
 import 'dart:io';
 
 void main() {

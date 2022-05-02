@@ -1,3 +1,5 @@
+// factorial program without user input.
+
 void main() {
   var a = 5;
   var factorial = 1;

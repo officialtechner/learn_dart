@@ -1,4 +1,4 @@
-import 'class1.dart';
+import 'simple_class_eg.dart';
 
 void main() {
   var Student1 = new Student("Sachin", 12, "Chandigrah");
