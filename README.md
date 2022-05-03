@@ -16,7 +16,7 @@ Dart is a programming language for web and mobile apps. It is developed by Googl
 * Easy to learn
    Learning the Dart is not the tough task as we know that Dart's syntax is similar to Java, C#, JavaScript, kotlin, etc. if any of these languages you know then you can learn easily the Dart.
 
-* Community suppor
+* Community support
    Dart has a large community across the world. So we face problem while coding then it is easy to find help. 
      
 
