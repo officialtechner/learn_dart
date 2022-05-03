@@ -15,7 +15,7 @@ class Boy extends Person {
 
 class Girl extends Person {
   void name() {
-    print("The name of the Girl's is: Parul");
+    print("The name of the Girl's is:  Parul");
   }
 
   void age() {
